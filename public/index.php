@@ -15,5 +15,5 @@ function bootApp() {
 }
 
 function initRootDirectory() {
-    return realpath($_SERVER['DOCUMENT_ROOT'] . '/../');
+    return realpath($_SERVER['DOCUMENT_ROOT'] . '/../') . '/';
 }
