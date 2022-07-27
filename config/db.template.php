@@ -1,8 +1,7 @@
 <?php
 
-$dbConnectionConfig = [
-    'host' => '',
-    'db' => '',
+return [
+    'dsn' => '',
     'username' => '',
     'password' => '',
 ];
