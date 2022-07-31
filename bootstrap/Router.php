@@ -2,7 +2,7 @@
 
 namespace bootstrap;
 
-class Router
+final class Router
 {
     private array $routes = [];
 
